@@ -1,7 +1,7 @@
 # Set function for cheklist scraping  
 ebird.scrap.chl <- 
   
-  function(loc, region=T, dates, ebird_key){
+  function(loc, dates, ebird_key){
 # install required packages
     if(require("librarian")==F){
     install.packages("librarian")
