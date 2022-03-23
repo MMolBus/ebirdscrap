@@ -38,5 +38,5 @@ visit
 
 -   **ebird\_key**: (required) eBird API key. You can obtain one from
     <a href="https://ebird.org/api/keygen" class="uri">https://ebird.org/api/keygen</a>.
-    We strongly recommend storing it in your .Renviron file as an
+    Is strongly recommend storing it in your .Renviron file as an
     environment variable called EBIRD\_KEY
