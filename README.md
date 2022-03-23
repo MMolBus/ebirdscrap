@@ -11,4 +11,7 @@ For this reason **ebird.scrap**::_ebird.scrap.chl_ main function may be a useful
 
 You could see the help vignette at : https://github.com/Syntrichia/ebird.scrap/blob/main/vignette/vignette_ebird.scrap.chl_github.md
 
+## Attention!: 
+_ebird.scrap.chl_ use webscrapping to obtain data from eBird webpage. So I advise userrs to do not abuse by setting to large places or long dates vectors to get the data. 
+To work with larga data ebird data sets you could use **auk** package.
 
