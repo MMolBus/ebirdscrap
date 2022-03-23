@@ -24,6 +24,10 @@ Is highly recomended to explore **rebird** package functions. You could
 visit
 <https://cran.r-project.org/web/packages/rebird/vignettes/rebird_vignette.html>
 
+**Attention!**: 
+_ebird.scrap.chl_ use webscrapping to obtain data from eBird webpage. So I advise userrs to do not abuse by setting to large places or long dates vectors to get the data. 
+To work with larga data ebird data sets you could use **auk** package.
+
 ### Arguments:
 
 -   **loc**: (required) Region code or locID (if a hotspot). Region code
