@@ -7,6 +7,6 @@ Official ebird API could be accessed via **rebird** package. In this package, fu
 
 For this reason **ebird.scrap**::_ebird.scrap.chl_ main function may be a useful. It offers a way to obtain all oservations from all checklists and species in a region at any date. The function is based on webscraping over all checklists submited to one place at specified dates. 
 
-Yo could see the help vignette at : https://github.com/Syntrichia/ebird.scrap/blob/main/vignette/vignette_ebird.scrap.chl_github.md
+You could see the help vignette at : https://github.com/Syntrichia/ebird.scrap/blob/main/vignette/vignette_ebird.scrap.chl_github.md
 
 
