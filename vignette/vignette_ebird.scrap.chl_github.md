@@ -4,8 +4,8 @@ Vignette ebird.scrap.chl
 ebird.scrap.chl
 ---------------
 
-**Objective**: Obtain complete lists of ofservations for all species
-sigthed from one place and dates using web scraping on eBird webpage.
+**Objective**: Obtain complete ofservation lists for all species
+sigthed in one place at any date, using web scraping on eBird webpage.
 
 The function *ebird.scrap.chl* transform species observations from eBird
 checklist into individual species observations. The checklists are
@@ -13,7 +13,7 @@ obtained from an ebird region (or hotspot) in a set of dates, without
 date limits.
 
 *ebird.scrap.chl* uses **rebird**::*ebirdchecklistfeed* to obtain the
-checklist, so **it is neccesary to have a key from eBird API**. To
+checklists, so **it is neccesary to have a key from eBird API**. To
 obtain an eBird key you need to have an account in the platform. Once
 you have an account you can obtain your key in
 <https://ebird.org/api/keygen> You have more information of about eBird
@@ -24,9 +24,9 @@ Is highly recomended to explore **rebird** package functions. You could
 visit
 <https://cran.r-project.org/web/packages/rebird/vignettes/rebird_vignette.html>
 
-**Attention!**: 
-_ebird.scrap.chl_ use webscrapping to obtain data from eBird webpage. So I advise userrs to do not abuse by setting to large places or long dates vectors to get the data. 
-To work with larga data ebird data sets you could use **auk** package.
+**Attention**: 
+_ebird.scrap.chl_ use webscrapping to obtain data from eBird webpage. So I advise users to do not abuse by setting to large places or long date vectors to get the data. 
+To work with large data ebird data sets you could use **auk** package.
 
 ### Arguments:
 
