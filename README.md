@@ -9,7 +9,7 @@ Official ebird API provide access via **rebird** package. In this package, funct
 
 For this reason **ebird.scrap**::_ebird.scrap.chl_ main function may be useful. It offers a way to obtain all observations from all checklists and species in a region at any date. The function is based on web scraping over all checklists submitted to one place at specified dates. 
 
-You could see the help vignette at : https://github.com/mossmusgo/ebird.scrap/blob/main/vignette/vignette_ebird.scrap.chl_github.md
+You could see the help vignette at : https://github.com/MMolBus/ebird.scrap/blob/main/vignette/vignette_ebird.scrap.chl_github.md
 
 ## Attention: 
 _ebird.scrap.chl_ use web scraping to obtain data from eBird webpage. So, I advise users to do not abuse by setting to large places or long dates vectors to get the data. 
