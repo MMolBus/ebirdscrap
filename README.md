@@ -2,7 +2,7 @@
 
 ## **Objective:** 
 
-Obtain complete  **observation** lists for all species sighted in any place and date from eBird webpage by web scraping, 
+Obtain **observations** from eBird lists for all species sighted in any place and date using web scraping, 
 
 ## **Background**
 Official ebird API provide access via **rebird** package. In this package, function _ebirdhistorical_  provide species from one eBird region or hotspot, but the obtained value is a data frame with only one line by species and do not provide the complete list of observations for each species. The only way to obtain the whole observations for all species in a region is as follows. First, is neccesary to obtain the regional species list with **rebird**::_ebirdhistorical_ for that region. Second, we need to take specie by specie using **rebird**::_ebirdregion_ and obtain all the observations for the region. However, by this way, we can only obtain observations made less than 30 day ago. Additionally, sometimes are missing from some checklists.
