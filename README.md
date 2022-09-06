@@ -13,6 +13,6 @@ You could see the help vignette at : https://github.com/MMolBus/ebird.scrap/blob
 
 ## Attention: 
 _ebird.scrap.chl_ use web scraping to obtain data from eBird webpage. So, I advise users to do not abuse by setting to large places or long dates vectors to get the data. 
-To work with large data ebird data sets you could use **auk** package.
+To work with large ebird data sets you could use **auk** package.
 
 
