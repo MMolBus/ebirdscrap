@@ -1,5 +1,5 @@
 # Set function for cheklist scraping  
-ebird.scrap.chl <- 
+ebirdscrapchl <- 
   
   function(loc, dates, ebird_key){
 # install required packages
