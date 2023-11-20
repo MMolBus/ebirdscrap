@@ -1,13 +1,13 @@
-Vignette ebird.scrap.chl
+Vignette ebirdscrapchl
 ================
 
-ebird.scrap.chl
+ebirdscrapchl
 ---------------
 
 **Objective**: Obtain complete ofservation lists for all species
 sigthed in one place at any date, using web scraping on eBird webpage.
 
-The function *ebird.scrap.chl* transform species observations from eBird
+The function *ebirdscrapchl* transform species observations from eBird
 checklist into individual species observations. The checklists are
 obtained from an ebird region (or hotspot) in a set of dates, without
 date limits.
@@ -25,7 +25,7 @@ visit
 <https://cran.r-project.org/web/packages/rebird/vignettes/rebird_vignette.html>
 
 **Attention**: 
-_ebird.scrap.chl_ use webscrapping to obtain data from eBird webpage. So I advise users to do not abuse by setting to large places or long date vectors to get the data. 
+_ebirdscrapchl_ use webscrapping to obtain data from eBird webpage. So I advise users to do not abuse by setting to large places or long date vectors to get the data. 
 To work with large data ebird data sets you could use **auk** package.
 
 ### Arguments:
