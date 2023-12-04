@@ -16,8 +16,9 @@ chl <-
       rbind,
       lapply(seq_along(dates),
              function(i)
-               ebirdchecklistfeed(loc = loc,region=T, date = dates[i],
-                                  # max = 5,
+               ebirdchecklistfeed(loc = loc,
+                                  region=T, date = dates[i],
+                                  max = 2000,
                                   key = ebird_key)))
 # Print number of checklist detected
 print(paste(nrow(chl), "checklist detected" ))
@@ -134,7 +135,7 @@ for(i in seq_along(url)){
     }
   print(paste(i, "cheklists of", nrow(chl), "scraped."))
   }
-# cambio de clase de la columba especies a factor
+# cambio de clase de la columna especies a factor
 df <- 
   df %>%
   mutate(sciName=as.factor(sciName))
